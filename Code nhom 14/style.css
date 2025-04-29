@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff8f0;
+    color: #333;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc00;
+    padding: 10px 30px;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #f44336;
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-banner img {
+    width: 100%;       /* ảnh lấp đầy chiều ngang */
+    height: auto;      /* giữ tỉ lệ ảnh gốc */
+    display:block;    /* bỏ khoảng trắng dưới ảnh */
+  }
+  
+  .brand-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d32f2f;
+  }
+  
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+  .container {
+    flex: 1;
+  }
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
